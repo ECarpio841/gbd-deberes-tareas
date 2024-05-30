@@ -6,4 +6,4 @@
  SELECT COUNT (*) - COUNT (country_of_origin) AS sin_país_de_origen FROM product 
  ```
  - Captura: 
- <img src = "/home/tebux/Documentos/GitHub/gbd-deberes-tareas/src/gbd-img-week7/sin_países_faltantes.png" width = "500" alt = "firstCapture">
+ <img src = "../../src/gbd-img-week7/sin_países_faltantes.png">
