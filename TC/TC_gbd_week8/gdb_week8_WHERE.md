@@ -6,4 +6,17 @@
  SELECT COUNT (*) - COUNT (country_of_origin) AS sin_país_de_origen FROM product 
  ```
  - Captura: 
+<<<<<<< HEAD
  <img src = "../../src/gbd-img-week7/sin_países_faltantes.png">
+=======
+ <img src = "../../src/gbd-img-week7/sin_países_faltantes.png" width = "500" alt = "firstCapture">
+
+### 2.- Escribir la sentencia para contar los número de clientes existentes en cada país donde se muestre el país y la cuenta de número de clientes por cada país.
+- Sentencia: 
+```
+SELECT DISTINCT city, COUNT (city) FROM client GROUP BY (city)
+```
+- Captura:
+
+<img src = "../../src/gbd-img-week7/image.png">
+>>>>>>> ea6bdd5 (New Changes)
