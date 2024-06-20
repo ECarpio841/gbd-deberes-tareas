@@ -14,3 +14,5 @@ Quedaría:
 ```
 CREATE VIEW detail_view AS SELECT d.id, d.quantity, p.description ,d.price, d.quantity * d.price AS subtotal FROM product p JOIN detail d ON p.id = d.productid;
 ```
+Esta vista quedaría:
+<img src="../../src/imgView/detail_view.png">
