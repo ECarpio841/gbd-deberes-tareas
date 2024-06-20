@@ -8,7 +8,7 @@ CREATE VIEW invoice_view AS SELECT i.id, i.code, i.create_at, i.total, c.full_na
 ```
 En resumen, se nos crea una vista del JOIN anterior.
 Quedaría: 
-<img src="../../imgView/Captura de pantalla 2024-06-20 153639">
+<img src="../../src/imgView/invoice_view.png">
 
 2.- Creación de detailView
 ```
