@@ -22,7 +22,7 @@ EXECUTE PROCEDURE validate_nui_length();
   ```
  - Captura: 
 
- <img src = "../../src/gbd-img-week8/first.png" width = "500" alt = "firstCapture">
+ <img src = "../../src/functions/firts.png" width = "500" alt = "firstCapture">
 
 ---
 ### 2.- Crear un función y un trigger para que cada vez que se inserte un nuevo registro en la tabla item se disminuya el stock de la tabla product.
@@ -45,7 +45,7 @@ EXECUTE PROCEDURE update_stock_on_detail_insert();
   ```
  - Captura: 
 
- <img src = "../../src/gbd-img-week8/first.png" width = "500" alt = "firstCapture">
+ <img src = "../../src/functions/second.png" width = "500" alt = "firstCapture">
 
  ### 3.- Crear un función y un trigger para la tabla invoice donde valide que el campo create_at sea del año actual (fecha sistema).
 
@@ -66,7 +66,7 @@ FOR EACH ROW
 EXECUTE FUNCTION validate_create_at_year();
 
   ```
- <img src = "../../src/gbd-img-week8/first.png" width = "500" alt = "firstCapture">
+ <img src = "../../src/functions/third.png" width = "500" alt = "firstCapture">
  
   ### 4.- Crear un función y un trigger para la tabla client y validar que el correo tenga un @.
 
@@ -86,4 +86,4 @@ FOR EACH ROW
 EXECUTE FUNCTION validate_email();
 
   ```
- <img src = "../../src/gbd-img-week8/first.png" width = "500" alt = "firstCapture">
+ <img src = "../../src/functions/fourth.png" width = "500" alt = "firstCapture">
